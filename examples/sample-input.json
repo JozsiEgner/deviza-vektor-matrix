@@ -1,0 +1,31 @@
+{
+  "config": {
+    "factor_weights": [0.35, 0.30, 0.20, 0.15],
+    "angle_warning_deg": 30,
+    "angle_block_deg": 90,
+    "speed_ratio_block": 2.0
+  },
+  "observations": [
+    {
+      "symbol": "EUR",
+      "fundamentals": [0.3, 0.2, -0.1, -0.2],
+      "market_return": 0.0015,
+      "observed_seconds": 60,
+      "target_distance": 0.004
+    },
+    {
+      "symbol": "RUB",
+      "fundamentals": [0.7, 0.5, -0.8, -0.6],
+      "market_return": -0.02,
+      "observed_seconds": 10,
+      "target_distance": 0.01
+    },
+    {
+      "symbol": "CNY",
+      "fundamentals": [0.1, 0.4, 0.2, 0.5],
+      "market_return": 0.0002,
+      "observed_seconds": 60,
+      "target_distance": 0.001
+    }
+  ]
+}
